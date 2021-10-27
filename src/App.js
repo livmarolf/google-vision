@@ -1,11 +1,11 @@
-import react from "react";
-import reactDom from "react-dom";
+import DImage from "./dragDrop/dragDrop";
 import SignInScreen from "./firebase/firebase-config";
 
 function App() {
   return (
     <div className="App">
       <SignInScreen />
+      <DImage />
     </div>
   );
 }

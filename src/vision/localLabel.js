@@ -1,3 +1,4 @@
+import { Component } from "react";
 // Imports the Google Cloud client library
 const vision = require("@google-cloud/vision");
 
